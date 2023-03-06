@@ -42,10 +42,6 @@ namespace StatisticArray
         }
 
         //task2
-        public static int CountOddNumbers(int[] arr)
-        {
-            return arr.Where(x => x % 2 == 1).Count();
-        }
-
+        
     }
 }
