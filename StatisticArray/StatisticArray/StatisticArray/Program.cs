@@ -6,6 +6,7 @@ namespace StatisticArray
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Zdrasti,kak si:)");
             int n = int.Parse(Console.ReadLine());
             int[] arr = new int[n];
             for (int i = 0; i < n; i++)
@@ -19,11 +20,8 @@ namespace StatisticArray
             OptionsManager.PrintArr(arr);
             // TO DO
             OptionsManager.SortOut(arr);
-
             Console.WriteLine(OptionsManager.CountOddNums(arr));
-
             OptionsManager.PrintOddsNum(arr);
-
             OptionsManager.PrintArr(arr);
             
 
