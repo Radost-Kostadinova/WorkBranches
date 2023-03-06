@@ -19,8 +19,9 @@ namespace StatisticArray
             OptionsManager.PrintArr(arr);
             // TO DO
             OptionsManager.SortOut(arr);
-            
+            Console.WriteLine(OptionsManager.CountOddNums(arr));
             OptionsManager.PrintArr(arr);
+            
 
         }
     }

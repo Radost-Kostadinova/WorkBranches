@@ -40,8 +40,14 @@ namespace StatisticArray
             var result = arr.Where(x => x % 2 == 1).ToArray();
             Console.WriteLine(string.Join(", ", result));
         }
-
+       
         //task2
+
+        public static int CountOddNums(int[] arr)
+        {
+            var result = arr.Count(x => x % 2 == 1);
+            return result;
+        }
         
     }
 }
