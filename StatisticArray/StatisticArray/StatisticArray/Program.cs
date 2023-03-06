@@ -19,7 +19,11 @@ namespace StatisticArray
             OptionsManager.PrintArr(arr);
             // TO DO
             OptionsManager.SortOut(arr);
+
             Console.WriteLine(OptionsManager.CountOddNums(arr));
+
+            OptionsManager.PrintOddsNum(arr);
+
             OptionsManager.PrintArr(arr);
             
 
